@@ -12,7 +12,7 @@ import (
 
 type Response struct {
 	Email       string `json:"email"`
-	CurrentTime string `json:"datetime"`
+	CurrentTime string `json:"current_datetime"`
 	GitHubURL   string `json:"github_repo"`
 }
 
