@@ -40,16 +40,16 @@ Follow these steps to set up and run the project:
 
 #API DOCUMENTATION
 
-    ##ENDPOINT URL 
+    ## ENDPOINT URL 
     - URL: GET /api/info
 
-    ##REQUEST FORMAT
+    ## REQUEST FORMAT
     - Method: GET
     - URL: /api/info
     - Headers: 
         - Content-Type: application/json
 
-    ##RESPONSE FORMAT
+    ## RESPONSE FORMAT
         The API responds with a JSON object containing the following fields:
             email: Your registered email address.
             current_datetime: The current date and time in UTC in ISO 8601 format.
@@ -62,7 +62,7 @@ Follow these steps to set up and run the project:
             }
         ```
 
-#Example Usage
+# Example Usage
     To interact with the API, you can send a GET request to the endpoint /api/info.
 
     Use curl to test the API:
