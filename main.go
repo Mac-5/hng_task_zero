@@ -19,7 +19,7 @@ type Response struct {
 func apiHandler(w http.ResponseWriter, r *http.Request) {
 	response := Response{
 		Email:       "emmamarkpius@gmail.com",
-		CurrentTime: time.Now().UTC().Format(time.RFC3339),
+		CurrentTime: time.Now().Format(time.RFC3339),
 		GitHubURL:   "https://github.com/Mac-5/hng_task_zero",
 	}
 
