@@ -50,7 +50,7 @@ The API is designed to be simple, lightweight, and easy to interact with. It ret
 ### Request Format
 
 -   Method: `GET`
--   URL: `/api/`
+-   URL: `https://hng-task-zero.onrender.com/`
 -   Headers:
     -   `Content-Type: application/json`
 
