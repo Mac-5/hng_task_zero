@@ -24,27 +24,31 @@ Follow these steps to set up and run the project:
    git clone https://github.com/Mac-5/hng_task_zero.git
 
    ```
-2. **Navigate into the project directory 
+2. **Navigate into the project directory** 
     ```sh
     cd your-repo
     ```
-3. **Install the necessary dependencies: if you havent already
+3. **Install the necessary dependencies: if you havent already**
     ```sh
     go get github.com/go-chi/chi/v5
     go get github.com/go-chi/chi/v5/middleware
     ```
-4. **Run the go server 
+4. **Run the go server**
     ```sh
     go run main.go
     ```
-#API DOCUMENTATION 
+
+#API DOCUMENTATION
+
     ##ENDPOINT URL 
     - URL: GET /api/info
+
     ##REQUEST FORMAT
     - Method: GET
     - URL: /api/info
     - Headers: 
-        - Content-Type: application/json 
+        - Content-Type: application/json
+
     ##RESPONSE FORMAT
         The API responds with a JSON object containing the following fields:
             email: Your registered email address.
@@ -57,6 +61,7 @@ Follow these steps to set up and run the project:
                 "github_url": "<https://github.com/yourusername/your-repo>"
             }
         ```
+
 #Example Usage
     To interact with the API, you can send a GET request to the endpoint /api/info.
 
