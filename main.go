@@ -13,7 +13,7 @@ import (
 type Response struct {
 	Email       string `json:"email"`
 	CurrentTime string `json:"current_datetime"`
-	GitHubURL   string `json:"github_repo"`
+	GitHubURL   string `json:"github_url"`
 }
 
 func apiHandler(w http.ResponseWriter, r *http.Request) {
