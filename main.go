@@ -20,7 +20,7 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 	response := Response{
 		Email:       "emmamarkpius@gmail.com",
 		CurrentTime: time.Now().UTC().Format(time.RFC3339),
-		GitHubURL:   "https://github.com/yourusername/your-repo",
+		GitHubURL:   "https://github.com/Mac-5/hng_task_zero.git",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
