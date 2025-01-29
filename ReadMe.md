@@ -74,7 +74,7 @@ To interact with the API, send a `GET` request to the endpoint `/api/info`.
 
 Use `curl` to test the API:
 ```sh
-curl -X GET http://localhost:8080/api/info
+curl -X GET https://hng-task-zero.onrender.com/api/info
 ```
 
 Expected JSON response:
