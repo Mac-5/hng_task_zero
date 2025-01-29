@@ -37,7 +37,7 @@ func main() {
 	r.Use(middleware.Recoverer) // Graceful panic recovery
 
 	// Routes
-	r.Get("/api/info", apiHandler)
+	r.Get("/api/", apiHandler)
 
 	// Start server
 	log.Println("Server running on :8080")
