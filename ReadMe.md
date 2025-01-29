@@ -45,7 +45,7 @@ The API is designed to be simple, lightweight, and easy to interact with. It ret
 
 ### Endpoint URL
 
--   URL: `GET  https://hng-task-zero.onrender.com/api`
+-   URL: `GET  https://hng-task-zero.onrender.com/`
 
 ### Request Format
 
@@ -70,11 +70,11 @@ The API responds with a JSON object containing the following fields:
 ```
 ## Example Usage
 
-To interact with the API, send a `GET` request to the endpoint `/api`.
+To interact with the API, send a `GET` request to the endpoint `/`.
 
 Use `curl` to test the API:
 ```sh
-curl -X GET https://hng-task-zero.onrender.com/api
+curl -X GET https://hng-task-zero.onrender.com/
 ```
 
 Expected JSON response:
