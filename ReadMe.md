@@ -45,7 +45,7 @@ The API is designed to be simple, lightweight, and easy to interact with. It ret
 
 ### Endpoint URL
 
--   URL: `GET /api/info`
+-   URL: `GET  https://hng-task-zero.onrender.com/api/info`
 
 ### Request Format
 
